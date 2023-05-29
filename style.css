@@ -1,0 +1,129 @@
+body {
+    background-image: url(/img/923397.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #290ab3;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .header button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+  }
+  .content {
+    max-width: 80%;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin: 80px auto;  
+    border-radius: 8px;  
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2); 
+  }
+
+  .content p {
+    margin: 10px;
+  }
+
+.countdown {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  
+  .birthday {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  #toggle-button {
+    color: #fff;
+    background-color: #290ab3;
+    margin: 80px auto;
+    display: block;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+.carousel {
+    display: none;
+    border-radius: 8px;
+    margin: 80px auto;
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+    width: 100%;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+/* Responsividade para dispositivos móveis */
+@media (max-width: 767px) {
+    .content {
+      max-width: 90%;
+      padding: 20px;
+      margin: 40px auto;
+    }
+  
+    .carousel {
+      width: 100%;
+      margin: 40px auto;
+    }
+  }
+  
+  /* Responsividade para tablets */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content {
+      max-width: 70%;
+      padding: 30px;
+      margin: 60px auto;
+    }
+  
+    .carousel {
+      width: 80%;
+      margin: 60px auto;
+    }
+  }
+  
+  /* Restante dos estilos */
+  
